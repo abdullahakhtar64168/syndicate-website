@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syndicate | O-Level Coaching & Tutoring</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="description"
+        content="O-Level group tutoring in Karachi for CAIE students. Physics, Chemistry & Math taught by experienced tutors. Hybrid classes, 25–30 student groups. Enroll now.">
+
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <link rel="canonical" href="https://syndicateo.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://syndicateo.com/">
+    <meta property="og:title" content="Syndicate | O-Level Coaching & Tutoring">
+    <meta property="og:description"
+        content="O-Level group tutoring in Karachi for CAIE students. Physics, Chemistry & Math taught by experienced tutors. Hybrid classes, 25–30 student groups. Enroll now.">
+    <meta property="og:image" content="https://syndicateo.com/assets/LOGO.png">
+    <meta property="og:site_name" content="Syndicate">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://syndicateo.com/">
+    <meta name="twitter:title" content="Syndicate | O-Level Coaching & Tutoring">
+    <meta name="twitter:description"
+        content="O-Level group tutoring in Karachi for CAIE students. Physics, Chemistry & Math taught by experienced tutors. Hybrid classes, 25–30 student groups. Enroll now.">
+    <meta name="twitter:image" content="https://syndicateo.com/assets/LOGO.png">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Syndicate •",
+      "description": "O-Level Coaching & Tutoring",
+      "url": "https://syndicateo.com/",
+      "logo": "https://syndicateo.com/assets/LOGO.png",
+      "email": "support@syndicateo.com",
+      "sameAs": [
+        "https://www.instagram.com/syndicate.khi",
+        "https://web.facebook.com/people/Syndicate-/61588186680313/"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gulshan e Iqbal",
+        "addressLocality": "Karachi",
+        "addressCountry": "Pakistan"
+      }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css" />
+    <link rel="stylesheet" href="styles.css?v=2.9">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- Welcome Modal -->
+    <div class="modal-overlay hidden" id="welcome-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="welcome-modal-icon">
+                <i class="fab fa-phoenix-framework"></i>
+            </div>
+            <h2 style="margin-bottom: 0;">Early Bird Registrations are Live</h2>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="navbar-wrapper">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="./assets/logo_without_bg_only_SO.png" alt="Syndicate Logo" class="logo-img">
+                    <span>SYNDICATE •</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="./pages/about.html">About</a></li>
+                    <li><a href="#core-subjects">Subjects</a></li>
+                    <li><a href="./pages/packages.html">Packages</a></li>
+                    <li><a href="./blog/">Blog</a></li>
+                    <li><a href="./pages/contact.html">Contact</a></li>
+                    <li><a href="https://lms.syndicateo.com">LMS</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+        <div class="hero">
+            <div class="hero-grid-overlay"></div>
+            <div class="hero-content">
+                <h1>SYNDICATE •</h1>
+                <h2 class="hero-tagline">Logic over Lectures</h2>
+                <div class="hero-badge">
+                    <span class="hero-badge-dot"></span>
+                    Don't memorize. Strategize.
+                </div>
+                <p class="hero-subhead">Small Batch CAIE O level coaching built around past paper logic, not rote lecturing.</p>
+                <div class="hero-buttons">
+                    <a href="./pages/packages.html" class="hero-btn-primary">View packages</a>
+                    <a href="#early-bird" class="hero-btn-secondary">Early Bird Registration</a>
+                </div>
+                <hr class="hero-divider">
+                <div class="hero-stats">
+                    <div class="hero-stat-item">
+                        <span class="hero-stat-value">25-30</span>
+                        <span class="hero-stat-label">Students per batch</span>
+                    </div>
+                    <div class="hero-stat-item">
+                        <span class="hero-stat-value">Rs 18,000</span>
+                        <span class="hero-stat-label">For 3 subjects</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Intro Section -->
+    <section id="about-intro" class="section about-page-section">
+        <div class="glow-sphere sphere-1"></div>
+        <div class="glow-sphere sphere-2"></div>
+        <div class="container">
+            <h2 class="section-title">SYNDICATE: LOGIC OVER LECTURES</h2>
+
+            <div class="about-page-content">
+                <!-- Intro Grid: Splitscreen showcase -->
+                <div class="about-intro-grid">
+                    <div class="intro-visual">
+                        <div class="visual-badge">The O-Level Meta</div>
+                        <p class="highlight-text">Let's be real: The old ways are broken</p>
+                    </div>
+                    <div class="intro-description">
+                        <p>Spending hours in a cramped room listening to a lecture is a vibe kill and it doesn't
+                            even guarantee the A*.</p>
+                        <p><strong>Syndicate</strong> is an elite O level coaching center built for the next generation. We've ditched the old ways of teaching, transformed teaching into hybrid education and created a premium support model.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Subjects Section -->
+    <section id="core-subjects" class="section core-subjects-section">
+        <div class="container relative-container">
+            <h2 class="section-title">Core O - Level Subjects</h2>
+
+            <!-- Single Subject Slider Card -->
+            <div class="subject-slider-container" id="subject-slider-container">
+                <div class="subject-slider-wrapper" id="subject-slider-wrapper">
+                    <!-- Slide 1: Mathematics -->
+                    <div class="subject-slide">
+                        <div class="subject-icon-display">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3>Mathematics (Syllabus D)</h3>
+                        <span class="subject-code">4024</span>
+                    </div>
+                    <!-- Slide 2: Physics -->
+                    <div class="subject-slide">
+                        <div class="subject-icon-display">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                        <h3>Physics</h3>
+                        <span class="subject-code">5054</span>
+                    </div>
+                    <!-- Slide 3: Chemistry -->
+                    <div class="subject-slide">
+                        <div class="subject-icon-display">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <h3>Chemistry</h3>
+                        <span class="subject-code">5070</span>
+                    </div>
+                    <!-- Slide 4: Biology -->
+                    <div class="subject-slide">
+                        <div class="subject-icon-display">
+                            <i class="fas fa-dna"></i>
+                        </div>
+                        <h3>Biology</h3>
+                        <span class="subject-code">5090</span>
+                    </div>
+                    <!-- Slide 5: Computer Science -->
+                    <div class="subject-slide">
+                        <div class="subject-icon-display">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Computer Science</h3>
+                        <span class="subject-code">2210</span>
+                    </div>
+                    <!-- Slide 6: Islamiat -->
+                    <div class="subject-slide">
+                        <div class="subject-icon-display">
+                            <i class="fas fa-mosque"></i>
+                        </div>
+                        <h3>Islamiat (ISL)</h3>
+                        <span class="subject-code">2058</span>
+                    </div>
+                    <!-- Slide 7: Pakistan Studies -->
+                    <div class="subject-slide">
+                        <div class="subject-icon-display">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <h3>Pakistan Studies (PST)</h3>
+                        <span class="subject-code">2059</span>
+                    </div>
+                    <!-- Slide 8: Urdu -->
+                    <div class="subject-slide">
+                        <div class="subject-icon-display">
+                            <i class="fas fa-pen-nib"></i>
+                        </div>
+                        <h3>Urdu (Syllabus B)</h3>
+                        <span class="subject-code">3248</span>
+                    </div>
+                    <!-- Slide 9: English -->
+                    <div class="subject-slide">
+                        <div class="subject-icon-display">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3>English</h3>
+                        <span class="subject-code">1123</span>
+                    </div>
+                </div>
+
+                <!-- Laptop/Desktop Slider Navigation Buttons -->
+                <button class="slider-nav-btn prev-btn" id="subject-prev-btn" aria-label="Previous Subject">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-nav-btn next-btn" id="subject-next-btn" aria-label="Next Subject">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- Centered Global CTA Button -->
+            <div class="subject-btn-wrapper">
+                <a href="./pages/packages.html" class="subject-learn-more-btn-global" id="subject-learn-more-btn">
+                    Explore Packages <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials-section">
+        <div class="glow-sphere sphere-1"></div>
+        <div class="glow-sphere sphere-2"></div>
+        <div class="container relative-container">
+            <h2 class="section-title">The Syndicate Word</h2>
+            <div class="testimonial-slider-container" id="testimonial-slider-container">
+                <div class="testimonial-slider-wrapper" id="testimonial-slider-wrapper">
+                    <!-- Slide 1: Saim Ibrahim -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="card-glow"></div>
+                            <div class="testimonial-header">
+                                <div class="avatar"><i class="fas fa-user-graduate"></i></div>
+                                <div class="student-info">
+                                    <h3>Saim Ibrahim</h3>
+                                </div>
+                            </div>
+                            <p class="testimonial-quote">"Perfect teachers and the perfect place to achieve your dream
+                                grades. The teachers were friendly, supportive, and made even the most difficult
+                                subjects easy to understand. The learning environment was motivating, and it truly
+                                helped improve
+                                my confidence and academic performance"</p>
+                        </div>
+                    </div>
+                    <!-- Slide 2: Parent of Raed -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="card-glow"></div>
+                            <div class="testimonial-header">
+                                <div class="avatar parent-avatar"><i class="fas fa-user-tie"></i></div>
+                                <div class="student-info">
+                                    <h3>Parent of Raed</h3>
+                                </div>
+                            </div>
+                            <p class="testimonial-quote">"Abdullah is a dedicated and responsible tutor who taught my
+                                son O Level Islamiyat, Urdu, and Pakistan Studies. His teaching is easy to understand,
+                                and he always ensured Raed was comfortable asking questions. I highly recommend him to
+                                other parents!"</p>
+                        </div>
+                    </div>
+                    <!-- Slide 3: Yusha Hanif -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="card-glow"></div>
+                            <div class="testimonial-header">
+                                <div class="avatar"><i class="fas fa-user-graduate"></i></div>
+                                <div class="student-info">
+                                    <h3>Yusha Hanif</h3>
+                                </div>
+                            </div>
+                            <p class="testimonial-quote">"Studying with the syndicate was a very fun and learning
+                                experience for me especially the way Sir Abdullah helped me throughout my journey and
+                                explained every single detail of the topic so remarkably that I still remember it.
+                                Syndicate is one of the best coaching centre that I've joined with the best faculty,
+                                that not only gives you education but also grooms you and makes you learn new stuff. It
+                                is the perfect balance of learning and fun."</p>
+                        </div>
+                    </div>
+                    <!-- Slide 4: Fatima Zeeshan -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="card-glow"></div>
+                            <div class="testimonial-header">
+                                <div class="avatar"><i class="fas fa-user-graduate"></i></div>
+                                <div class="student-info">
+                                    <h3>Fatima Zeeshan</h3>
+                                </div>
+                            </div>
+                            <p class="testimonial-quote">"Honestly, Abdullah Sir is the best. I was expecting the usual
+                                boring, rigid lectures, but studying with him feels more like talking to a mentor who
+                                actually gets it.
+                                He is incredibly patient and never makes you feel dumb for asking a million questions.
+                                Instead of just forcing me to memorize things, he breaks concepts down with real-world
+                                examples until they actually click. His stress-free energy completely took the anxiety
+                                out of learning. If you want a tutor who is super smart but still grounded and easy to
+                                talk to, Abdullah Sir is definitely the one."</p>
+                        </div>
+                    </div>
+                    <!-- Slide 5: Anas Kapaya -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="card-glow"></div>
+                            <div class="testimonial-header">
+                                <div class="avatar"><i class="fas fa-user-graduate"></i></div>
+                                <div class="student-info">
+                                    <h3>Anas Kapaya</h3>
+                                </div>
+                            </div>
+                            <p class="testimonial-quote">"My time studying with Sir Abdullah was filled with challenging
+                                questions that really made me think, but the fun and enjoyment we had was on another
+                                level. It wasn't just about studies; it was about truly learning new things. Highly
+                                recommend!"</p>
+                        </div>
+                    </div>
+                    <!-- Slide 6: Ismail Minhaj -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="card-glow"></div>
+                            <div class="testimonial-header">
+                                <div class="avatar"><i class="fas fa-user-graduate"></i></div>
+                                <div class="student-info">
+                                    <h3>Ismail Minhaj</h3>
+                                </div>
+                            </div>
+                            <p class="testimonial-quote">"Sir Anas helped me a lot in my studies. He explained difficult
+                                topics in a very easy and understandable way. He was always patient, supportive, and
+                                motivated me to do better in class.<br><br>
+                                One thing I really liked about Sir Anas was that he never got tired of answering
+                                questions, even if we asked the same thing many times. His teaching style made learning
+                                less stressful and more interesting. Because of his guidance, I became more confident in
+                                my subjects and improved my performance.<br><br>
+                                I am very thankful to have had a teacher like Sir Anas, and I would highly recommend him
+                                to other students."</p>
+                        </div>
+                    </div>
+                    <!-- Slide 7: Muhammad Hadi -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="card-glow"></div>
+                            <div class="testimonial-header">
+                                <div class="avatar"><i class="fas fa-user-graduate"></i></div>
+                                <div class="student-info">
+                                    <h3>Muhammad Hadi</h3>
+                                </div>
+                            </div>
+                            <p class="testimonial-quote">"I had the privilege of being Sir Hassan's student. That
+                                experience was truly a life-changing and inspiring one that I will always
+                                cherish.<br><br>
+                                You had a remarkable gift for breaking down complex topics into simple, clear, and
+                                easily understandable explanations. Your endless patience and warm, encouraging nature
+                                made learning enjoyable and stress-free. You always answered with the enthusiasm and
+                                care.<br><br>
+                                Because of your invaluable guidance and constant motivation, I grew more confident and
+                                my performance improved significantly. You are not just a teacher you are a true mentor
+                                and an inspiration."</p>
+                        </div>
+                    </div>
+                    <!-- Slide 8: Arham Ahmed -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="card-glow"></div>
+                            <div class="testimonial-header">
+                                <div class="avatar"><i class="fas fa-user-graduate"></i></div>
+                                <div class="student-info">
+                                    <h3>Arham Ahmed</h3>
+                                </div>
+                            </div>
+                            <p class="testimonial-quote">"I was completely satisfied with Abdullah's classes. He is a
+                                fantastic teacher, and his expertise in PST, History, and Geography truly stands out.
+                                Highly recommended for anyone looking for strong academic support!"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Laptop/Desktop Slider Navigation Buttons -->
+                <button class="slider-nav-btn prev-btn" id="testimonial-prev-btn" aria-label="Previous Testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-nav-btn next-btn" id="testimonial-next-btn" aria-label="Next Testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="early-bird" class="section early-bird-section">
+        <div class="container">
+            <h2 class="section-title">Early Bird Registration</h2>
+            <div class="early-bird-card">
+                <div class="early-bird-icon"><i class="fab fa-phoenix-framework"></i></div>
+                <h3>Beat the Rush. Secure the Bag & the Grades</h3>
+                <p class="early-bird-desc">Grab a massive headstart and make the smartest move ever. Register with
+                    Syndicate. Stay Strong, Stay Ahead!.</p>
+                <ul class="early-bird-features">
+                    <li><i class="fas fa-check"></i> Huge Early Bird Discount</li>
+                    <li><i class="fas fa-check"></i> Early access to resources</li>
+                    <li><i class="fas fa-check"></i> Elite, no nonsense Lectures</li>
+                    <li><i class="fas fa-check"></i> Priority 24/7 teacher support</li>
+                </ul>
+                <p class="early-bird-price">Rs. 5,500 <span>per subject</span></p>
+                <p class="early-bird-price">Rs. 24,000 <span>for 5 subjects</span></p>
+                <button class="cta-button cta-glow-early-bird" data-package="early-bird" data-subjects="5"
+                    data-price="5500">Register Now <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="lms-footer" style="background: var(--color-brand-navy); width: 100%; margin-top: auto;">
+      <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+        <div class="footer-content" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px; padding: 48px 0; border-top: 1px solid rgba(255, 255, 255, 0.08);">
+          
+          <div class="footer-logo" style="flex: 1 1 auto; display: flex; align-items: center; gap: 48px; flex-wrap: wrap;">
+            
+            <!-- Syndicate Logo Block -->
+            <div class="syndicate-block" style="display: flex; flex-direction: column; gap: 12px; align-items: center; width: fit-content;">
+              <img src="./assets/syndicate-logo.png" alt="Syndicate Logo" style="height: 64px; width: auto; filter: drop-shadow(0 0 10px rgba(0, 229, 255, 0.25));" />
+              <div style="display: flex; flex-direction: column; gap: 6px; align-items: center;">
+                <span style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 2rem; color: #ffffff; text-transform: uppercase; line-height: 1; letter-spacing: 0.05em; text-align: center;">
+                  SYNDICATE•
+                </span>
+                <span style="font-family: 'Montserrat', sans-serif; font-weight: 300; font-size: 0.75rem; color: #9ba1a6; text-transform: uppercase; letter-spacing: 0.35em; line-height: 1; text-align: center;">
+                  LOGIC OVER LECTURES
+                </span>
+              </div>
+            </div>
+
+            <!-- Vertical Separator -->
+            <div class="desktop-only" style="width: 1px; height: 100px; background: rgba(255, 255, 255, 0.08); display: block;"></div>
+
+            <!-- Nyrogen Logo Block -->
+            <div class="nyrogen-block" style="display: flex; flex-direction: column; align-items: flex-start; margin-top: 32px;">
+              <span style="font-size: 0.7rem; color: #6b7280; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 600; margin-left: 60px; margin-bottom: 16px;">
+                Official Tech Partner
+              </span>
+              <a href="https://www.nyrogentechnologies.com" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 20px; text-decoration: none;">
+                <img src="./assets/nyrogen-logo.png" alt="Nyrogen Logo" style="height: 64px; width: auto; filter: drop-shadow(0 0 10px rgba(0, 229, 255, 0.25));" />
+                <div style="display: flex; flex-direction: column; gap: 4px;">
+                  <span style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 2rem; color: #ffffff; text-transform: uppercase; line-height: 1;">
+                    NYROGEN
+                  </span>
+                  <span style="font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 0.9rem; color: #9ba1a6; text-transform: uppercase; line-height: 1; letter-spacing: 0.05em;">
+                    TECHNOLOGIES
+                  </span>
+                  <span style="font-family: 'Montserrat', sans-serif; font-weight: 300; font-size: 0.65rem; color: #6b7280; text-transform: uppercase; line-height: 1; letter-spacing: 0.15em; margin-top: 2px;">
+                    Build • Innovate • Transform
+                  </span>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="footer-info" style="display: flex; gap: 64px; flex-wrap: wrap; margin-top: 32px; align-items: center;">
+            
+            <!-- Vertical Separator -->
+            <div class="desktop-only" style="width: 1px; height: 100px; background: rgba(255, 255, 255, 0.08); display: block;"></div>
+
+            <div class="footer-socials">
+              <h4 style="font-size: 1.1rem; margin-bottom: 16px; color: #ffffff;">Follow Us</h4>
+              <div style="display: flex; flex-direction: column; gap: 12px;">
+                <a href="https://www.instagram.com/syndicate.khi" target="_blank" rel="noopener noreferrer" style="color: #9ba1a6; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 0.95rem;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                  Instagram
+                </a>
+                <a href="https://web.facebook.com/people/Syndicate-/61588186680313/" target="_blank" rel="noopener noreferrer" style="color: #9ba1a6; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 0.95rem;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                  Facebook
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-emails" style="display: flex; flex-direction: column; gap: 12px;">
+              <h4 style="font-size: 1.1rem; margin-bottom: 4px; color: #ffffff;">Contact</h4>
+              <a href="mailto:support@syndicateo.com" style="color: #9ba1a6; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 0.95rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                support@syndicateo.com
+              </a>
+              <a href="https://wa.me/923312421510" target="_blank" rel="noopener noreferrer" style="color: #9ba1a6; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 0.95rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                +92 331 2421510
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom" style="padding: 24px 0; text-align: center; color: #6b7280; font-size: 0.85rem;">
+          <p style="margin: 0;">
+            &copy; <span id="current-year"></span> SYNDICATE • All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="https://www.instagram.com/syndicate.khi" target="_blank" class="instagram-btn">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <!-- Package Selection Modal -->
+    <div class="modal-overlay hidden" id="package-modal">
+        <div class="modal-content package-modal-content">
+            <button class="modal-close" id="package-modal-close">&times;</button>
+            <h2 id="modal-package-title">Select Your Subjects</h2>
+            <p class="modal-subtitle">Choose <span id="subject-limit">2</span> subjects for your package</p>
+
+            <div class="subjects-selection">
+                <label class="subject-checkbox">
+                    <input type="checkbox" name="subject" value="Mathematics (4024)">
+                    <span class="checkmark"></span>
+                    <span class="subject-name">Mathematics (4024)</span>
+                </label>
+                <label class="subject-checkbox">
+                    <input type="checkbox" name="subject" value="Physics (5054)">
+                    <span class="checkmark"></span>
+                    <span class="subject-name">Physics (5054)</span>
+                </label>
+                <label class="subject-checkbox">
+                    <input type="checkbox" name="subject" value="Chemistry (5070)">
+                    <span class="checkmark"></span>
+                    <span class="subject-name">Chemistry (5070)</span>
+                </label>
+                <label class="subject-checkbox">
+                    <input type="checkbox" name="subject" value="Biology (5090)">
+                    <span class="checkmark"></span>
+                    <span class="subject-name">Biology (5090)</span>
+                </label>
+                <label class="subject-checkbox">
+                    <input type="checkbox" name="subject" value="Computer Science (2210)">
+                    <span class="checkmark"></span>
+                    <span class="subject-name">Computer Science (2210)</span>
+                </label>
+                <label class="subject-checkbox">
+                    <input type="checkbox" name="subject" value="Islamiat (2058)">
+                    <span class="checkmark"></span>
+                    <span class="subject-name">Islamiat (2058)</span>
+                </label>
+                <label class="subject-checkbox">
+                    <input type="checkbox" name="subject" value="Pakistan Studies (2059)">
+                    <span class="checkmark"></span>
+                    <span class="subject-name">Pakistan Studies (2059)</span>
+                </label>
+                <label class="subject-checkbox">
+                    <input type="checkbox" name="subject" value="Urdu (3248)">
+                    <span class="checkmark"></span>
+                    <span class="subject-name">Urdu (3248)</span>
+                </label>
+                <label class="subject-checkbox">
+                    <input type="checkbox" name="subject" value="English (1123)">
+                    <span class="checkmark"></span>
+                    <span class="subject-name">English (1123)</span>
+                </label>
+            </div>
+
+            <p class="selection-count">Selected: <span id="selected-count">0</span> / <span id="max-subjects">2</span>
+            </p>
+
+            <form id="package-form" class="package-form">
+                <div class="form-group">
+                    <input type="text" id="user-name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="user-email" name="email" placeholder="Your Email" required>
+                    <span id="user-email-error" class="error-msg"></span>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="user-phone" name="phone" placeholder="Your Phone Number" required>
+                    <span id="user-phone-error" class="error-msg"></span>
+                </div>
+                <div class="form-group">
+                    <select id="user-level" name="academic_level" required>
+                        <option value="" disabled selected>Select Your Academic Level</option>
+                        <option value="O1">O1 (Grade 9)</option>
+                        <option value="O2">O2 (Grade 10)</option>
+                        <option value="O3">O3 (Grade 11)</option>
+                        <option value="IGCSE Year 9">IGCSE Year 9</option>
+                        <option value="IGCSE Year 10">IGCSE Year 10</option>
+                        <option value="IGCSE Year 11">IGCSE Year 11</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group hidden" id="other-level-group">
+                    <input type="text" id="other-level" name="other_level" placeholder="Please specify your academic level">
+                </div>
+                <div class="form-group promo-group hidden" id="promo-group">
+                    <div class="promo-input-wrapper">
+                        <input type="text" id="promo-code" name="promo"
+                            placeholder="Promo Code (Early Bird Registration Only)">
+                        <button type="button" id="apply-promo" class="apply-promo-btn">Apply</button>
+                    </div>
+                    <p class="promo-message" id="promo-message"></p>
+                </div>
+
+                <div class="price-display">
+                    <p class="total-price">Total: <span id="total-price">Rs. 0</span></p>
+                    <p class="price-note" id="price-note"></p>
+                </div>
+
+
+                <button type="submit" class="submit-btn package-submit-btn" id="package-submit-btn" disabled>Submit
+                    Enrollment</button>
+            </form>
+            <div id="package-form-result" class="form-result"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+    <script src="script.js?v=3.1"></script>
+</body>
+
+</html>
